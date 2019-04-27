@@ -1,0 +1,59 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.card {
+  background-image: url("https://i.pinimg.com/originals/1c/97/df/1c97df47df64fe9357290bd7f51d0a1a.jpg");
+  background-repeat: no-repeat;
+  background-size: 200px 350px;
+  height: 350px;
+  width: 200px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.text {
+  position: absolute;
+  bottom: 80px;
+  line-height: 1.4;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.action {
+  font-size: 18px;
+  color: white;
+  font-weight: 1000;
+  display: flex;
+  justify-content: center;
+}
+
+.country {
+  font-size: 38px;
+  color: white;
+  font-weight: 1000;
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  background-color: #00c777;
+  border-radius: 5px;
+  border: none;
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 15px;
+  padding: 5px;
+  font-family: cursive;
+  width: 80%;
+  height: 40px;
+  font-size: 16px;
+  color: #fff;
+}
+
+button:hover {
+  cursor: pointer;
+}
