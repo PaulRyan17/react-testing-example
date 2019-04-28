@@ -4,9 +4,12 @@ import './App.css';
 import Card from './components/Card'
 
 class App extends Component {
+  handleClick = (value) => {
+    console.log(value)
+  }
   render() {
     return (
-      <Card />
+      <Card handleClick={this.handleClick} />
     );
   }
 }

@@ -11,7 +11,7 @@ const Card = ({ handleClick }) => {
           <span>Iceland</span>
         </div>
       </div>
-      <button onClick={handleClick}>DISCOVER</button>
+      <button onClick={() => handleClick('discover')}>DISCOVER</button>
     </div>
   );
 };
