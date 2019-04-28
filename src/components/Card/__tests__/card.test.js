@@ -28,7 +28,7 @@ it('callback function is the passed the string discover', ()=>{
   let card = mount(<Card handleClick={onClickCallback} />)
   // find out button i.e. the button that triggers the callback and click it
   const button = card.find('button').simulate('click')
-  // our mock function should have been called once
+  // test to see if our function was called with the right param
   expect(onClickCallback).toHaveBeenCalledWith('discover')
 })
 
